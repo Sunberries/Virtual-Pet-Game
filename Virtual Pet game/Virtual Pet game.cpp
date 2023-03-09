@@ -8,6 +8,8 @@ class Customer
 {
 protected:
 	string customerName;
+	string address;
+	int age;
 public:
 	Customer(string name);
 	string getCustomerName() { return customerName; }
@@ -22,6 +24,13 @@ class Pet
 {
 protected:
 	string petName;
+	float mood;
+	float energy;
+	float hunger;
+	float friendliness;
+	float price;
+	int popularity;
+	char type;
 public:
 };
 
